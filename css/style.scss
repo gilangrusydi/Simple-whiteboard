@@ -1,0 +1,36 @@
+* {margin: 0; padding: 0;}
+
+body {
+    background: #f0f0f0;
+}
+
+#app {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -55%);
+
+    .tools {
+        margin: 10px 0;
+
+        * {
+            margin-right: 20px;
+        }
+        
+        #clear {
+            border: 0;
+            padding: 8px 12px;
+            background: #5685c3;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    }
+
+    #board {
+        background: #fff;
+        border-radius: 5px;
+        cursor: crosshair;
+    }
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+#app {
+  width: 70%;
+  margin: 30px;
+}
+
+#app .tools {
+  margin: 10px 0;
+}
+
+#app .tools * {
+  margin-right: 20px;
+}
+
+#app .tools #clear {
+  border: 0;
+  padding: 8px 12px;
+  background: #5685c3;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#app #board {
+  background: #fff;
+  border-radius: 5px;
+  cursor: crosshair;
+}
+/*# sourceMappingURL=style.css.map */
